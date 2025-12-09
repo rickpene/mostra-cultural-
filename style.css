@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #000000;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    background: #ffffff;
+    background: #4343436f;
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@ header {
 
 h1 {
     font-size: 3em;
-    color: #333;
+    color: #fff4f4;
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 5px;
@@ -66,6 +66,7 @@ h1 {
     text-transform: uppercase;
     border-radius: 5px;
     transition: all 0.3s ease;
+    color: white; /* ← letra branca ao digitar */
 }
 
 .tile.filled {
@@ -166,7 +167,7 @@ h1 {
     font-weight: bold;
     margin: 20px 0;
     min-height: 30px;
-    color: #333;
+    color: #ffffff;
 }
 
 .message.success {
