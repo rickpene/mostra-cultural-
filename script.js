@@ -1,5 +1,5 @@
 // Configurações do jogo
-const WORD = 'GLACE';
+const WORD = 'vinho';
 const WORD_LENGTH = 5;
 const MAX_ATTEMPTS = 6;
 
