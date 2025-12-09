@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma 2 - Sobremesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DESAFIO</h1>
+            <p class="subtitle">Adivinhe a palavra de 5 letras</p>
+        </header>
+
+        <div id="game-board"></div>
+
+        <div id="message" class="message"></div>
+
+        <div id="keyboard"></div>
+
+        <div class="instructions">
+            <h3>Como jogar:</h3>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="box correct">E</span>
+                    <span>Letra correta na posição correta</span>
+                </div>
+                <div class="legend-item">
+                    <span class="box present">S</span>
+                    <span>Letra existe mas está na posição errada</span>
+                </div>
+                <div class="legend-item">
+                    <span class="box absent">X</span>
+                    <span>Letra não existe na palavra</span>
+                </div>
+            </div>
+        </div>
+
+        <button id="restart-btn" class="restart-btn">Jogar Novamente</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
